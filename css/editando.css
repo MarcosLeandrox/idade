@@ -1,0 +1,43 @@
+div {
+   
+background-color: rgba(8, 3, 82, 0.342);
+border-radius: 15px;
+position: absolute;
+padding: 20px;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+font-family: Arial, Helvetica, sans-serif;
+box-shadow: 4px 4px 7px rgb(233, 2, 48);
+
+
+}
+button {  
+border: none;
+border-radius: 5px 0;
+padding: 5px;
+cursor: pointer;
+box-shadow: 4px 4px 6px;
+}
+button:hover {
+    background-image: linear-gradient(to right,crimson,rgb(0, 174, 255));
+}
+body {
+    background-image: linear-gradient(to right,rgb(139, 0, 0),black);
+}
+input {
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    padding: 5px;
+    box-shadow: 2px 2px;
+}
+p {
+    color: white;
+}
+fieldset {
+    border-radius: 5px;
+}
+h1 {
+    color: white;
+}

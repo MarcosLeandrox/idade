@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="css/editando.css">
+    
+    <title>calculando idade</title>
+
+</head>
+
+
+<body>
+    
+    
+    <div>
+       
+        <fieldset>
+            <h1>Calculando Idade</h1>
+            <p>Que ano você nasceu?</p>
+            <input id="anoQueNasceu"><br><br><br>
+            <button onclick="idade()">Calcular</button><br><br>
+            <p id="resultado">resultado</p>
+       </fieldset>
+    
+    </div>
+    
+    <script>
+      
+      function idade(){
+          var ano, calculo;
+          ano = document.getElementById('anoQueNasceu').value;
+          calculo = 2021 - ano;
+          document.getElementById('resultado').innerHTML = calculo;
+      }
+    
+    </script>
+
+</body>
+
+
+</html>
